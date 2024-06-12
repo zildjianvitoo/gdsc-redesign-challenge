@@ -3,6 +3,7 @@
   --primary-100: #daedfe;
   --text-100: #f3f3f3;
   --text-200: #e8e8e8;
+  --text-300: #bbbbbb;
   --text-400: #777777;
 }
 
@@ -121,9 +122,10 @@ nav ul li a {
 }
 
 .hero-text-wrapper p {
-  font-size: 24px;
+  font-size: 20px;
   margin-top: 1rem;
-  font-weight: 300;
+
+  color: var(--text-300);
 }
 
 .hero-button-wrapper {
