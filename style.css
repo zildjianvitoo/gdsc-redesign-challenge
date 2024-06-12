@@ -48,7 +48,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 43px 72px;
+  padding: 23px 72px;
   align-items: center;
   width: 100%;
   position: fixed;
@@ -106,21 +106,21 @@ nav ul li a {
 }
 
 .hero-text-wrapper {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  gap: 2.5rem;
+  gap: 36px;
+  width: 75%;
   color: white;
 }
 
 .hero-text-wrapper h1 {
-  font-size: 28px;
+  font-size: 54px;
 }
 
 .hero-text-wrapper p {
-  width: 75%;
   font-size: 24px;
   margin-top: 1rem;
   font-weight: 300;
